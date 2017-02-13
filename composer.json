@@ -14,8 +14,6 @@
             "email": "connetcor181@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require-dev": {
         "phpunit/phpunit": "<6.0"
     },
