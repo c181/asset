@@ -5,10 +5,12 @@
     "type": "cakephp-plugin",
     "require": {
         "php": ">=5.5.9",
-        "cakephp/cakephp": ">=3.2.3 <4.0.0"
+        "cakephp/cakephp": ">=3.2.3 <4.0.0",
+        "c181/asset": "dev-master as 1.0.0"
     },
     "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "C181",
