@@ -3,14 +3,13 @@
     "description": "CakePHP 3.* Plugin fot Asset css & js",
     "keywords": ["CakePHP", "Asset"],
     "type": "cakephp-plugin",
-    "require": {
-        "php": ">=5.5.9",
-        "cakephp/cakephp": ">=3.2.3 <4.0.0",
-        "c181/asset": "dev-master as 1.0.0"
-    },
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": ">=3.2.3 <4.0.0",
+    },
     "authors": [
         {
             "name": "C181",
@@ -27,8 +26,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Asset\\Test\\": "tests",
-            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+            "Asset\\Test\\": "tests"
         }
     },
     "version": "1.0.0",
